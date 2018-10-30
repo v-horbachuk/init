@@ -1,0 +1,2 @@
+#!/bin/bash
+networksetup -getmacaddress 'Bluetooth PAN' | awk '{print$3}'

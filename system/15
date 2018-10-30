@@ -1,0 +1,6 @@
+#!/bin/bash
+
+kill
+
+#kill <PID>
+# in case of permission trouble use 'sudo'

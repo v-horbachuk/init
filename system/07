@@ -1,0 +1,4 @@
+#!/bin/bash
+cat /var/run/sshd.pid
+
+#in case of permission trouble use 'sudo'

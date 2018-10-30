@@ -1,0 +1,4 @@
+#!/bin/bash
+cron
+
+# in case of permission trouble use 'sudo'

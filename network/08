@@ -1,0 +1,4 @@
+#!/bin/bash
+whois slash16.org
+
+# whois prints the information about input domains.

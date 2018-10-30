@@ -1,0 +1,5 @@
+#!/bin/bash
+df --human-readable
+
+# df — report file system disk space usage.
+# in case of permission trouble use 'sudo'

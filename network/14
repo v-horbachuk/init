@@ -1,0 +1,4 @@
+#!/bin/bash
+/etc/hosts
+
+# /etc/hosts contains local DNS entries.

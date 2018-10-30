@@ -1,0 +1,5 @@
+#!/bin/bash
+service ssh status
+
+#if ssh server isn't installed use 'apt-get install openssh-server'
+#in case of permission trouble use 'sudo'

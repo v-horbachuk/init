@@ -1,0 +1,6 @@
+#!/bin/bash
+du -s --human-readable /var/*
+
+# du — estimate file space usage
+# -s — displays total for each arg
+# in case of permission trouble use 'sudo'

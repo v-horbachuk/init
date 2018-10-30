@@ -1,0 +1,7 @@
+#!/bin/bash
+less /etc/resolv.conf
+
+# A resolver configuration file.
+# The resolver is a set of routines in the C library that provide access to the Internet Domain Name System (DNS).
+# The resolver configuration file contains information that is read by
+# the resolver routines the first time they are invoked by a process.

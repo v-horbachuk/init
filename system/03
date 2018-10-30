@@ -1,0 +1,7 @@
+#!/bin/bash
+/etc/hostname
+
+# /etc/hostname contains the hostname.
+
+# source
+# https://wiki.archlinux.org/index.php/Network_configuration#Set_the_hostname

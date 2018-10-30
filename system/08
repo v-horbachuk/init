@@ -1,0 +1,4 @@
+#!/bin/bash
+~/.ssh/authorized_keys
+
+#this file contains public keys

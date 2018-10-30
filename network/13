@@ -1,0 +1,2 @@
+#!/bin/bash
+nslookup 10.51.1.81

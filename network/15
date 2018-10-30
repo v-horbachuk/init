@@ -1,0 +1,4 @@
+#!/bin/bash
+#sudo echo "46.19.122.85	intra.42.fr" >> /etc/hosts
+
+# Manually change hosts file to reroute by adding '46.19.122.85	intra.42.fr'.

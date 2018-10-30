@@ -1,0 +1,4 @@
+#!/bin/bash
+fdisk -l
+
+#in case of permission trouble use 'sudo'

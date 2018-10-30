@@ -1,0 +1,14 @@
+#!/bin/bash
+iptables -P INPUT DROP
+iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+iptables -A OUTPUT -d 10.0.0.0/8 -j ACCEPT
+
+# ACCEPT, DROP — policy chains
+# in case of permission trouble use 'sudo'
+# iptables — administration tool for IPv4 packet filtering and NAT.
+# -P — Set the policy for the built-in (non-user-defined) chain to the given target.
+# The policy target must be either ACCEPT or DROP
+# -A — append chain rule-specification
+# -s — source address
+# -j — jump target — This specifies the target of the rule; i.e., what to do if the packet matches it
+# -d — destination address

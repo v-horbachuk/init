@@ -1,0 +1,4 @@
+#!/bin/bash
+service ssh restart
+
+# in case of permission trouble use 'sudo'

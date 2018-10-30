@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "nat (10.90.1.11)";
+
+# nat is Network Address Translation (NAT).
+
+# source
+# https://whatismyipaddress.com/nat

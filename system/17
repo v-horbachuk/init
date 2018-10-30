@@ -1,0 +1,5 @@
+#!/bin/bash
+iptables -L
+
+# in case of permission trouble use 'sudo'
+# iptables — administration tool for IPv4 packet filtering and NAT

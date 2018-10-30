@@ -1,0 +1,8 @@
+#!/bin/bash
+ps aux
+
+# in case of permission trouble use 'sudo'
+
+# man ps
+# ps - report a snapshot of the current processes
+# To see every process on the system using BSD syntax: ps ax, ps axu
