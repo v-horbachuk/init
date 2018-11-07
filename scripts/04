@@ -21,3 +21,15 @@ if [ "$MD5" != "$MD5_BACKUP" ]; then
 fi
 
 sudo cp $TARGET $BACKUP
+
+
+if [ -e /etc/cron_hash.md5 ]; then
+    if ! md5sum -c /etc/cron_hash.md5; then
+	echo "Hash sum didn't match the previous value" | mail -s "Missmatch" root
+	md5sum /etc/crontab > /etc/cron_hash.md5
+    fi
+else
+    md5sum /etc/crontab > /etc/cron_hash.md5
+fi
+
+#To install the mail command: apt-get install mailutils

@@ -1,8 +1,6 @@
 #!/bin/bash
-
-echo "apt-get update -y && \
-apt-get upgrade -y >> /var/log/update_script.log" > dailyUpdate.sh
-chmod 755 dailyUpdate.sh
-sudo mv dailyUpdate.sh /etc/cron.daily
-echo "* 4 * * 1 root /etc/cron.daily/dailyUpdate.sh" | crontab
+echo "apt-get update -y && \ apt-get upgrade -y >> /var/log/update_script.log" > everyday_update.sh
+sudo chmod 755 everyday_update.sh
+sudo mv everyday_update.sh /etc/cron.daily
+echo "0 4 * * 7 /etc/cron.daily/everyday_update.sh" | crontab
 crontab -l

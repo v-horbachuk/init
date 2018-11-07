@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -d "$1" ]
 then
-	ls -lS "$1"
+	ls -laS "$1"
 else
 	echo "Error: directory doesn't exist"
 fi
